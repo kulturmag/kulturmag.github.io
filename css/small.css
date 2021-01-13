@@ -1,0 +1,19 @@
+
+.container {
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+.covid img{
+  border-radius: 0;
+}
+
+
+aside.left, aside.right{
+  text-align: center;
+  float: inherit;
+}
+
+p{
+    text-align: center;
+}

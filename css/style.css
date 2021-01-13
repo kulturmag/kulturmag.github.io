@@ -1,0 +1,133 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url('../images/background.png');
+  font-family: 'Fredoka One', cursive;
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Fredoka One', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+h1 {
+
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/*
+ * Container Styles
+*/
+.covid img{
+  width:100%;
+  border-radius:20px 20px 0px 0px;
+  line-height: 0;
+
+}
+
+.container section:nth-child(even){
+  background: pink;
+  overflow: hidden;
+}
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+
+  
+}
+
+
+section.intro, section.contact{
+  padding: 40px;
+}
+
+section.intro{
+  background: #FFF;
+}
+
+section.contact{
+  background-color: grey;
+}
+
+/*
+* Aside Style
+*/
+
+aside.left{
+  float: left;
+}
+
+aside.right{
+  float: right;
+}
+
+aside{
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    }
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    } 
+
+section.enjoy{
+  float:inherit;
+}
